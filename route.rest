@@ -1,0 +1,13 @@
+GET http://localhost:3000/subscribers
+###
+POST http://localhost:3000/subscribers
+Content-Type: "application/json";
+
+{
+    "name": "New User",
+    "subscribed": "This is a new subscriber"
+}
+
+###
+GET http://localhost:3000/subscribers/1
+###
